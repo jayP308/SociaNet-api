@@ -10,13 +10,14 @@
 * [Contacts](#contacts)
   
 ## Usage
-This app is use to track confidential information such as employees, salaries, and departments. This app will help companies be organize and to easily keep track of their employee.
+This app is use where friends can share thoughts, react to friends's thoughts, and create a friends list
   
 ## Description
-This app helps companies organize and easily add new hire employees and storing their salaries, employee id, department id, and who the employee reports to. When app is start through console, a table will be presented and user will have options to choose using category of what they want to do. This table includes, job titles, departments, salary, department ID, employee ID. Few of the options is to let user view the table base on the category they want to choose and to add, delete and update employee
-  
+This app allows users to communicate with their friends via sharing thoughts and just like liking a comment, and can create a friends list with it. This is a back end work where
+everything is under the hood and not meant to be seen by users/clients. This back end features getting all users, getting users by id, create new users, thoughts and deletes users by their id.
+
 ## Installation
-Repo: https://github.com/jayP308/e_employee_tracker
+Repo: https://github.com/jayP308/SociaNet-api
 
 - Click on the link above to view my repository
 - Click on the green button that says "Code"
@@ -27,10 +28,11 @@ Repo: https://github.com/jayP308/e_employee_tracker
 - From here, you can run "node ./index.js" (Video Tutorial Under Test Section)
 
 ## Test
-Inside the app with terminal open, run "node server.js" and questions where user can choose a category of what to do will be displayed and will be prompt series of questions base on the user chosen category.
+Inside the app with terminal open, run "node server.js" to run the server and inside insomnia/postman, open https://localhost:3001/api. Make sure that server is running
+successfully.
 
 Tutorial Video Link
-https://drive.google.com/file/d/1UKSN7cxNl8tiPddzBDtyisRRPO9PPcYj/view
+
 
 ## Contributors
 Junnel R. Padilla, UC Berkeley Bootcamp Modules, ChatGPT
